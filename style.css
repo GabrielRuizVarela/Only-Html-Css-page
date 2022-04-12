@@ -9,7 +9,7 @@ body{
 .blue-container{
     /* display: flex; */
     margin: 0px;
-    padding: 0px 400px;
+    padding: 0px 100px;
     background-color: #1f2937;
 }
 .container-header{
@@ -123,11 +123,11 @@ img{
     /* padding: 400px;; */
     display: flex;
     flex-direction: column;
-    padding: 200px;
+    padding: 100px;
     background-color: #e5e7eb;
 }
 .footer{
-    padding: 0px 400px;
+    padding: 0px 100px;
     color: #1f2937;
     font-family: Roboto;
     font-size: 36px;
@@ -139,5 +139,5 @@ img{
     font-size: 22px;
     font-weight: 800;
     text-align: right;
-    padding: 0px 400px;
+    padding: 0px 100px;
 }
