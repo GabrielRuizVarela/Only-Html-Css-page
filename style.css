@@ -1,0 +1,143 @@
+body{
+    margin: 00px;
+    /* padding: 400px; */
+    /* display: flex; */
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.blue-container{
+    /* display: flex; */
+    margin: 0px;
+    padding: 0px 400px;
+    background-color: #1f2937;
+}
+.container-header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header, .header-list, h1{
+    /* display: flex; */
+    color: #f9faf8;
+    font-family: Roboto, serif;
+    
+}
+.header{
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* padding-top: 10px; */
+    margin-left: 200px;
+    font-size: 33px;
+    font-weight: bolder;
+}
+ul{
+    margin-right: 200px;
+    list-style: none;
+    display: flex
+}
+li{
+    padding: 10px;
+}
+
+h1{
+    font-size: 58px;
+    margin: 0px;
+    /* padding: 0px; */
+}
+p{
+    margin: 0px 10px 10px 0px;
+    /* padding: 0px; */
+    font-size: 18px;
+    font-family: Roboto, serif;
+    color: #e5e7eb;
+}
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    /* flex: 1 0 auto; */
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+}
+img{
+    width: 600px;
+    height: auto;
+    margin-left: 10px;
+}
+.mid{
+    padding: 100px 200px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.mid-text{
+    height: auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2 {
+    font-family: 'Roboto', serif;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 60px;
+    
+}
+.img1{
+    height: 200px;
+    width: 200px;
+    flex: 1 1 auto;
+    border-radius: 16px;
+}
+.txt1{
+    font-size: 18px;
+    font-family: Roboto, serif;
+    color: #0a0d12ab;
+    width: 200px;
+    padding: 10px 0px 0px 10px;
+}
+.images{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    /* padding: ; */
+}
+.square{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.white-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    /* justify-content: center; */
+}
+
+.grey-container{
+    /* padding: 400px;; */
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    background-color: #e5e7eb;
+}
+.footer{
+    padding: 0px 400px;
+    color: #1f2937;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+.sign{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: right;
+    padding: 0px 400px;
+}
